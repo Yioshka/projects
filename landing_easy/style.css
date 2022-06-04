@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E5E5E5 !important;
+}
+a {
+    text-decoration: none !important; 
+}
+.header {
+    padding-top: 40px;
+}
+.logo {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 42px !important;
+    line-height: 50px;
+    color: #2F2E2E;
+    margin-right: 15%;
+}
+.nav-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F2E2E;
+    transition: 0.3s;
+}
+.navbar {
+    padding-top: 47px;
+}
+.nav-items {
+    align-items: center;
+    position: relative;
+}
+.nav-item:hover {
+    font-weight: 600;
+    color: #2F2E2E;
+}
+.main-promo {
+    margin-top: 57px;
+}
+.bg {
+    background-image: url('img/bg_one.png');
+    background-size: cover;
+    padding-bottom: 800px;
+}
+.content-abs {
+    position: absolute;
+    background: linear-gradient(91.1deg, rgba(244, 246, 245, 0.9) -7.89%, rgba(255, 255, 255, 0.9) 132.55%);
+    inset: 0;
+    width: 691px;
+    height: 570px;
+    left: 0px;
+    top: 203px;
+    padding: 138px;
+}
+.h2__caption {
+    font-family: 'Playfair';
+    font-size: 46px;
+    line-height: 60px;
+    color: #2F2E2E;
+}
+.text__content-promo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2F2E2E;
+    margin-bottom: 0;
+}
+/************************ SERVICES ********************************/
+.services {
+    padding: 16px 0 65px 0;
+    background: rgba(37, 77, 77, 0.2);
+}
+.service__cards {
+    padding-top: 45px;
+    text-align: center;
+}
+.h4__caption {
+    font-family: 'Playfair';
+    font-size: 27px;
+    line-height: 32px;
+    color: #2F2E2E;
+}
+.text__small-content {
+    font-family: 'Playfair';
+    font-size: 16px;
+    line-height: 19px;
+    color: #2F2E2E;
+}
+/**************************ABOUT*************************/
+.about {
+    padding: 75px 0 95px;
+}
+.about__content {
+    margin-left: 5%;
+}
+.text__content {
+    font-family: 'Playfair';
+    font-size: 25px;
+    line-height: 36px;
+    color: #2F2E2E;    
+}
+.button-link {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #2F2E2E;
+    transition: 0.3s;
+}
+.button-link:hover {
+    font-weight: 500;
+    color: #2F2E2E;
+}
+/**********************************PROJECTS***********************************/
+.projects {
+    padding-bottom: 90px;
+}
+.flter__tag {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F2E2E;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.flter__tag:hover {
+    font-weight: 600;
+}
+.flter__tag.active {
+    font-weight: 600;
+}
+.projects__list {
+    padding-top: 71px;
+    text-align: center;
+}
+.project__caption {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2E2E;
+    padding-top: 13px;
+    max-width: 50%;
+    margin-left: 25%;
+}
+.none {
+    display: none;
+}
+/**********************************TESTIMONIAL  *********************/
+.testimonial {
+    padding-bottom: 150px;
+}
+.cards {
+    padding-top: 78px;
+}
+div.col.card {
+    background-color: #E5E5E5;
+    border: none;
+}
+.card__content-caption {
+    font-family: 'Playfair';
+    font-size: 25px;
+    line-height: 33px;
+    color: #2F2E2E;
+}
+.card__content-text {
+    font-family: 'Playfair';
+    font-size: 17px;
+    line-height: 20px;
+    color: #2F2E2E;
+    padding-top: 16px;
+    max-width: 84%;
+}
+/*********************FOOTER***************************/
+.footer {
+    background: #2E2F32;
+    padding: 47px 0 54px 0;
+}
+.logo-footer {
+    color: #FAFAFA;
+}
+.text__content-footer {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 171%; 
+    color: #FAFAFA;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.social {
+    padding-top: 20px;
+}
+.footer__caption {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FAFAFA;
+    padding: 10px 0 18px;
+}
+.content-articles {
+    max-width: 80%;
+}
+.text__content-footer-link:hover {
+    font-weight: 600;
+    color: #474747;
+}
